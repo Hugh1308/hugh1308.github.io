@@ -1,0 +1,91 @@
+.facebook {
+	@include social-icon-size;
+	fill: $theme-color-primary;
+}
+
+.twitter {
+	@include social-icon-size;
+	fill: $theme-color-primary;
+}
+
+.instagram {
+	@include social-icon-size;
+	fill: $theme-color-primary;
+}
+
+.github {
+	@include social-icon-size;
+	fill: $theme-color-primary;
+}
+
+.linkedin {
+	@include social-icon-size;
+	fill: $theme-color-primary;
+}
+
+.email {
+	width: 40px;
+	height: 40px;
+	margin: 15px;
+	fill: white;
+	transition: all 0.5s ease-in-out;
+	transform-origin: 50% 50%;
+}
+
+.email:hover {
+	fill: rgb(202, 202, 202);
+	transform: rotate(-15deg) scale(1.2);
+}
+
+.email-container {
+	margin-bottom: 30px;
+}
+
+.email-button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 65px;
+	padding-right: 65px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+.copyright {
+	margin-top: 20px;
+}
+
+.arrowup {
+	width: 40px;
+	height: 40px;
+	fill: $theme-color-primary;
+	margin-left: 5px;
+}
+
+.backtotop {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.html {
+	@include dev-icon-size;
+	fill: $theme-color-primary;
+}
+
+.css {
+	@include dev-icon-size;
+	fill: $theme-color-primary;
+}
+
+.javascript {
+	@include dev-icon-size;
+	fill: $theme-color-primary;
+}
+
+.sass {
+	@include dev-icon-size;
+	fill: $theme-color-primary;
+}
+
+.icon:hover {
+	fill: rgb(99, 99, 99);
+}
